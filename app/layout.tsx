@@ -8,8 +8,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Defintex",
-  description: "The Decentralized Value Exchange Protocol",
+  title: {
+    default: "Defintex",
+    template: "%s | Defintex",
+  },
+  description:
+    "Defintex is a decentralized value exchange protocol that transforms time, skills, and services into trusted on-chain assets.",
+  keywords: [
+    "Defintex",
+    "Web3",
+    "Blockchain",
+    "Ethereum",
+    "Layer 2",
+    "DeFi",
+    "Time Credit",
+    "AI Matching",
+  ],
+  authors: [{ name: "Defintex Team" }],
+  creator: "Defintex",
+  metadataBase: new URL("https://defintex.vercel.app"),
 };
 
 export default function RootLayout({
